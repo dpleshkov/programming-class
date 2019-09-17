@@ -11,5 +11,5 @@ The following is a list of Bash (Linux and MacOS commands), as well as their DOS
 | Delete a directory | `rmdir <foldername>` | `rmdir <foldername>` |
 | Delete a file | `rm <filename>` | `del <filename>` |
 | Echo text to screen | `echo <text>` | `echo <text>` |
-| Open simple text editor | `nano <optionalfilename>` | `notepad <optionalfilename>` |
+| Open a simple text editor | `nano <optionalfilename>` | `notepad <optionalfilename>` |
 | Execute Python program | `python3 <filename>`<br/>`python <filename>` | `python3 <filename>`<br/>`python <filename>` |
