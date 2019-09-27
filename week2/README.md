@@ -15,7 +15,10 @@
     * If on Windows, download and run the Brackets installer `.msi`.
     * If on MacOS, download and open the Brackets `.dmg` and drag the `.app` to your Applications folder.
 * Make a new folder called `Python` on your `Desktop` folder.
-* Write a simple `print("Hello World!")` program and save it as `hello_world.py` to the `Python Programs` folder.
+* In Brackets, on the top right, click `File`, then click `Open Folder`. Open your `Python` folder that should be located in your `Desktop` folder.
+
+![]
+* Write a simple `print("Hello World!")` program and save it as `hello_world.py` to the `Python` folder.
 * Open up the Command Prompt or the Terminal and type the following commands:
 ``` bash
 cd Desktop/
