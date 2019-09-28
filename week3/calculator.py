@@ -1,37 +1,45 @@
+#Imports python's "system" library
 import sys
 
+#Functions to add, subtract, multiply and divide
 def add(num1, num2):
     sum = num1 + num2
     print('{} + {} = {}'.format(num1, num2, sum))
 
-def sub(num1, num2):
-    sum = num1 - num2
-    print('{} - {} = {}'.format(num1, num2, sum))
+def subtract(num1, num2):
+    difference = num1 - num2
+    print('{} - {} = {}'.format(num1, num2, difference))
 
-def mult(num1, num2):
-    sum = num1 * num2
-    print('{} * {} = {}'.format(num1, num2, sum))
+def multiply(num1, num2):
+    product = num1 * num2
+    print('{} * {} = {}'.format(num1, num2, product))
 
-def div(num1, num2):
-    sum = num1 / num2
-    print('{} / {} = {}'.format(num1, num2, sum))
+def divide(num1, num2):
+    quotient = num1 / num2
+    print('{} / {} = {}'.format(num1, num2, quotient))
 
+#Calculate function performs all operators on given numbers
 def calculate():
-    num1 = int(input ('First number: '))
+    num1 = int(input ('\nFirst number: '))
     num2 = int(input ('Second number: '))
-    operator = input("Type 'add' to add, 'subtract' to subtract and so on: ")
+    operator = input("Type 'add' to add, 'subtract' to subtract and so on: ").lower()
+    
+    while operator not in ('add', 'subtract', 'multiply', 'divide'):
+        operator = input("Invalid operator, try again: ").lower()
+        
     if operator  == 'add':
         add(num1, num2)
 
     elif operator == 'subtract':
-        sub(num1, num2)
+        subtract(num1, num2)
 
     elif operator == 'multiply':
-        mult(num1, num2)
+        multiply(num1, num2)
 
     elif operator == 'divide':
-        div(num1, num2)
+        divide(num1, num2)
 
+#Runs until user quits the application
 calculate()
 quit = input('Type \'quit\' to quit and \'continue\' to continue: ')
 
@@ -43,11 +51,11 @@ while quit.lower() != 'quit':
         sys.exit('Invalid Command')
 
     elif quit.lower() == 'quit':
-        sys.exit('Saving Results')
+        sys.exit('Exiting')
 
     elif quit.lower() == 'continue':
         calculate()
         quit = ''
         quit = input('Type \'quit\' to quit and \'continue\' to continue: ')
 
-    sys.exit('Saving Results')
+    sys.exit('Exiting')
