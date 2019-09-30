@@ -2,8 +2,6 @@
 
 ### Concepts
 
-* Learning about objects and classes
-* Understanding properties and methods; how they relate to variables and functions
-* Applying this knowledge to create a small game
-
-### Instructions
+* Learning about tuples, dictionaries, matrices(2d arrays) and linked lists
+* Understanding where each one should be used
+* Creating projects utilizing each one
