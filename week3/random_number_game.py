@@ -84,10 +84,10 @@ while guess != number:
             guess = int(guess)
 
     #If you run out of guesses, you lose
-    if guesses_left == 0:
+    if guesses_left == 1:
         print("Sorry, you are out of guesses. The number was {}".format(number))
         break
             
 #If you win the game
-if guess == number and guesses_left >= 0:
+if guess == number and guesses_left > 0:
     print("Great job! You guessed the number with {} guesses left!".format(guesses_left))
