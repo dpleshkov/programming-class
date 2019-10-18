@@ -1,9 +1,11 @@
 class Person:
 
-    def __init__(self, name, age, height, fav_color):
+    def __init__(self, name, gender, age, feet, inches, fav_color):
         self.name = name
+        self.gender = gender
         self.age = age
-        self.height = height
+        self.feet = feet
+        self.inches = inches
         self.fav_color = fav_color
 
     def greet(self):
