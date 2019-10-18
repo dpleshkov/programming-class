@@ -1,4 +1,4 @@
-programming_club = ["Mallika", "Duronto", "Moksh", "Kane", "Sean", "Kaavya", "Nitya", "Penny", "Jayden"]
+programming_club = ["Mallika", "Duronto", "Moksh", "Kane", "Sean", "Kaavya", "Nitya", "Penny", "Jayden", "Cally"]
 
 print("Students in Programming Club:")
 
